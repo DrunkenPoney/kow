@@ -1,0 +1,1 @@
+export const APP_ID = 'kow-application-ocoyy'
