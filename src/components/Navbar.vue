@@ -19,9 +19,13 @@ export default {
   data() {
     return {
       items: [{
-        label: 'Trust',
-        icon: 'pi pi-chart-line',
+        label: 'Vote',
+        icon: 'pi pi-check-circle',
         to: '/'
+      }, {
+        label: 'Results',
+        icon: 'pi pi-list',
+        to: '/results'
       }]
     }
   }

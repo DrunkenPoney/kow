@@ -1,3 +1,5 @@
+export * as math from './math'
+
 export type RecursiveArray<T> = Array<T | RecursiveArray<T>>
 export type RecursiveArrayInfer<T> = T extends RecursiveArray<infer I> ? I : never
 
